@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019377645876",
+    "project_id": "flash-chat-e2ce3",
+    "storage_bucket": "flash-chat-e2ce3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019377645876:android:708858704759493b3d0d61",
+        "android_client_info": {
+          "package_name": "com.shiro29b.chatty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019377645876-sl651hmlaepp441lm9lv4i4eojhkdpb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTI5QqzyeqoIUPZ3ucPfK6KqGmKVV3PTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019377645876-sl651hmlaepp441lm9lv4i4eojhkdpb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
