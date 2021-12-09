@@ -34,12 +34,15 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
     });
 
   }
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    super.dispose();
-    controller.dispose();
+
+  void onpressLogin(){
+    Navigator.pushNamed(context, '/login',);
+
   }
+  void onpressRegister(){
+    Navigator.pushNamed(context, '/registration',);
+  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -76,13 +79,32 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
             SizedBox(
               height: 48.0,
             ),
-            RoundedButton(color: Colors.lightBlueAccent,title: 'Log In',onPress: '/login',),
-            RoundedButton(color: Colors.blueAccent,title: 'Register',onPress: '/registration',),
+            RoundedButton(
+              color: Colors.lightBlueAccent,
+              title: 'Log In',
+              onpressed: (){
+                onpressLogin();
+              },
+            ),
+
+            RoundedButton(
+              color: Colors.blueAccent,
+              title: 'Register',
+              onpressed: (){
+                onpressRegister();
+                },
+            ),
 
           ],
         ),
       ),
     );
+  }
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+    controller.dispose();
   }
 }
 
